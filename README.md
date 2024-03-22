@@ -6,7 +6,6 @@ The Hymn Voting and Selection App is an iOS application designed to streamline t
 
 - **View Hymn List**: Browse a list of hymns with their first lines.
 - **Vote on Favorite Hymns**: Vote on favorite hymns to indicate preferences.
-- **Submit Suggestions**: Submit suggestions for new hymns to be included in the app.
 - **Visual Representation of Favorites**: Visual representation of favorite hymns in ranking order for each user.
 - **Generate Master Hymn List**: Generate a master list of hymns based on aggregated user preferences.
 - **Filter by Category/Theme**: Filter hymns by category or theme for specific occasions (e.g., breaking of bread, Death of Christ, Evening).

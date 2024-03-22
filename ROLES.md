@@ -1,4 +1,4 @@
-### Tasks for ER:
+## Tasks for ER:
 1. **Backend Development (ER)**:
    - Set up the backend server using Node.js/Express or another backend framework.
    - Write route handlers, controllers, and database models.
@@ -16,7 +16,7 @@
    - Perform unit tests, integration tests, and provide feedback on usability.
 
 
-### Tasks for CG:
+## Tasks for CG:
 1. **Frontend Development (iOS) (CG)**:
    - Develop the frontend of the iOS app using Swift.
    - Write code for the MainView, HymnTableViewCell, HymnDetailViewController, and other UI components.

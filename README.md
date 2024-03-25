@@ -11,28 +11,20 @@ The Hymn Voting and Selection App is an iOS application designed to streamline t
 - **Filter by Category/Theme**: Filter hymns by category or theme for specific occasions (e.g., breaking of bread, Death of Christ, Evening).
 - **Lock Screen Widget**: Show a widget on the lock screen displaying the user's current favorite hymns.
 
-
-## Repository Structure
-
+## Project Structure
 
 - **hymn-voting-app/**
-  - **frontend/**: Contains the frontend code written in iOS Swift.
-    - `MainView.swift`: Main view displaying hymns and voting options.
-    - `HymnTableViewCell.swift`: Table view cell for displaying hymn information.
-    - `HymnDetailViewController.swift`: View controller for displaying detailed information about a hymn.
-    - `...`: Other view controllers and UI components.
-  - **backend/**: Contains the backend code, possibly written in Node.js/Express or another backend framework.
-    - `server.js`: Express server setup.
-    - `routes/`: Route handlers.
-    - `controllers/`: Controller logic.
-    - `models/`: Database models.
-    - `config/`: Configuration files.
+  - **public/**: Contains public assets such as HTML, CSS, and client-side JavaScript.
+    - index.html: Main HTML file.
+    - styles.css: CSS stylesheets.
+  - **src/**: Backend code (Node.js/Express).
+    - index.js: Main server file.
+    - database.js: Database setup.
+    - hymnModel.js: Database model for hymns.
+    - hymnController.js: Route handlers for hymns.
+    - users.js: Route handlers for user authentication.
   - **database/**: Contains database schema and setup scripts.
-    - `schema.sql`: Database schema definition.
-    - `seeds.sql`: Sample data for initialization.
-  - `README.md`: Project overview, setup instructions, and usage guide.
-  - `LICENSE`: License information.
-
-
-
-
+    - schema.sql: Database schema definition.
+    - seeds.sql: Sample data for initialization.
+- README.md: Project overview, setup instructions, and usage guide.
+- LICENSE: License information.
